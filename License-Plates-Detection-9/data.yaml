@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['plate']
+
+roboflow:
+  workspace: prima-prova-roboflow
+  project: license-plates-detection-8g9l8
+  version: 9
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/prima-prova-roboflow/license-plates-detection-8g9l8/dataset/9
